@@ -37,11 +37,31 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.008005"
+            "BioX::Workflow::Command" : "0",
+            "BioX::Workflow::Command::add" : "0",
+            "BioX::Workflow::Command::new" : "0",
+            "BioX::Workflow::Command::run" : "0",
+            "HPC::Runner::Command" : "0",
+            "HPC::Runner::Command::execute_array" : "0",
+            "HPC::Runner::Command::execute_job" : "0",
+            "HPC::Runner::Command::submit_jobs" : "0",
+            "Moose" : "0",
+            "MooseX::App" : "1.39",
+            "MooseX::App::Command" : "0",
+            "MooseX::App::Plugin::Version::Command" : "0",
+            "namespace::autoclean" : "0",
+            "perl" : "v5.10.0",
+            "strict" : "0",
+            "warnings" : "0"
          }
       },
       "test" : {
          "requires" : {
+            "File::Spec::Functions" : "0",
+            "FindBin" : "0",
+            "Test::Class::Moose" : "0",
+            "Test::Class::Moose::Load" : "0",
+            "Test::Class::Moose::Runner" : "0",
             "Test::More" : "0.96"
          }
       }
