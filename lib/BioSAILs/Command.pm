@@ -39,13 +39,16 @@ For our in house workflows please see L<Workflows | https://biosails.abudhabi.ny
 
 Edit any workflow using our in house workflow editor by clicking 'View/Edit'.
 
+
+=head2 Get Help
+
 For additional help please see the L<Forums | https://biosails.abudhabi.nyu.edu/biosails/index.php/forums/>
 
 For issues please run
 
     biosails version
 
-And attach the issue to any 
+And attach the output to any issues or concerns on https://github.com/biosails/BioSAILs-Command/issues.
 
 =head1 AUTHOR
 
