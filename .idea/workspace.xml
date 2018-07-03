@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdf44b11-15d7-42f2-a68e-8f47a65b7c33" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/BioSAILs/Command.pm" afterPath="$PROJECT_DIR$/lib/BioSAILs/Command.pm" />
-    </list>
+    <list default="true" id="fdf44b11-15d7-42f2-a68e-8f47a65b7c33" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

@@ -1,5 +1,5 @@
 {
-   "abstract" : "Blah blah blah",
+   "abstract" : "Command line wrapper for the BioX-Workflow-Command and HPC-Runner-Command libraries.",
    "author" : [
       "Jillian Rowe <jillian.e.rowe@gmail.com>"
    ],
@@ -47,7 +47,18 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.01",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/biosails/BioSAILs-Command/issues"
+      },
+      "homepage" : "https://github.com/biosails/BioSAILs-Command",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/biosails/BioSAILs-Command.git",
+         "web" : "https://github.com/biosails/BioSAILs-Command"
+      }
+   },
+   "version" : "1.0",
    "x_generated_by_perl" : "v5.22.0",
    "x_serialization_backend" : "Cpanel::JSON::XS version 3.0225",
    "x_static_install" : 1
