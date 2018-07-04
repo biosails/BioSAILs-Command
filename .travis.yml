@@ -8,10 +8,7 @@ matrix:
          - cpanm -n --installdeps .
          - cpanm -v Module::Build::Tiny
          - cpanm -n IO::Interactive
-         - cpanm -nq Dist::Milla
-         - milla build
-         - milla test
-         - milla install
+         - cpanm -nq BioX::Workflow::Command HPC::Runner::Command
          - perl Build.PL
          - perl ./Build
          - perl ./Build test
@@ -35,10 +32,7 @@ matrix:
         - cpanm -nq --installdeps .
         - cpanm -v Module::Build::Tiny
         - cpanm -nq IO::Interactive
-        - cpanm -nq Dist::Milla
-        - milla build
-        - milla test
-        - milla install
+        - cpanm -nq BioX::Workflow::Command HPC::Runner::Command 
         - perl Build.PL
         - perl ./Build
         - perl ./Build test
