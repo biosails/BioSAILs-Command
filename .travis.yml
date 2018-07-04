@@ -5,9 +5,9 @@ matrix:
       perl:     "5.22"
       install:
          - which cpanm
-         - cpanm -nq --installdeps .
+         - cpanm -n --installdeps .
          - cpanm -v Module::Build::Tiny
-         - cpanm -nq IO::Interactive
+         - cpanm -n IO::Interactive
          - perl Build.PL
          - perl ./Build
          - perl ./Build test

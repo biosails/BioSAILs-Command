@@ -11,12 +11,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Command.pm" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Command.pm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/BioSAILs/Command.pm">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="782">
               <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_class_tests.t" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/t/test_class_tests.t">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="e#41#81#0#Perl5" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -317,17 +329,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/t/test_class_tests.t">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#41#81#0#Perl5" expanded="false" />
-            <element signature="e#192#300#0#Perl5" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/BioSAILs/Command/add.pm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -403,6 +404,16 @@
         <state relative-caret-position="782">
           <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/t/test_class_tests.t">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#41#81#0#Perl5" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
