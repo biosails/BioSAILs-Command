@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdf44b11-15d7-42f2-a68e-8f47a65b7c33" name="Default" comment="" />
+    <list default="true" id="fdf44b11-15d7-42f2-a68e-8f47a65b7c33" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/t/test_class_tests.t" afterPath="$PROJECT_DIR$/t/test_class_tests.t" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +26,9 @@
       <file leaf-file-name="test_class_tests.t" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/t/test_class_tests.t">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#41#81#0#Perl5" expanded="true" />
-              </folding>
+            <state relative-caret-position="69">
+              <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -118,13 +118,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/lib/BioSAILs/Command/add.pm" />
-        <option value="$PROJECT_DIR$/t/test_class_tests.t" />
         <option value="$PROJECT_DIR$/lib/BioSAILs/Command/submit_jobs.pm" />
         <option value="$PROJECT_DIR$/lib/BioSAILs/Command/execute_job.pm" />
         <option value="$PROJECT_DIR$/lib/BioSAILs/Command/execute_array.pm" />
         <option value="$PROJECT_DIR$/t/lib/TestsFor/BioSAILs/Command/Test001.pm" />
         <option value="$PROJECT_DIR$/lib/BioSAILs/Command/version.pm" />
         <option value="$PROJECT_DIR$/lib/BioSAILs/Command.pm" />
+        <option value="$PROJECT_DIR$/t/test_class_tests.t" />
       </list>
     </option>
   </component>
@@ -409,11 +409,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/t/test_class_tests.t">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#41#81#0#Perl5" expanded="true" />
-          </folding>
+        <state relative-caret-position="69">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
