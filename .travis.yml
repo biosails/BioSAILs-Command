@@ -9,6 +9,7 @@ matrix:
          - cpanm -v Module::Build::Tiny
          - cpanm -n IO::Interactive
          - cpanm -nq BioX::Workflow::Command HPC::Runner::Command
+         - cpanm -nq Test::Class::Moose
          - perl Build.PL
          - perl ./Build
          - perl ./Build test
@@ -33,6 +34,7 @@ matrix:
         - cpanm -v Module::Build::Tiny
         - cpanm -nq IO::Interactive
         - cpanm -nq BioX::Workflow::Command HPC::Runner::Command 
+        - cpanm -nq Test::Class::Moose
         - perl Build.PL
         - perl ./Build
         - perl ./Build test
