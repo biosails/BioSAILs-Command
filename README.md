@@ -1,14 +1,34 @@
 # NAME
 
-BioSAILs::Command - Blah blah blah
+BioSAILs::Command - Command line wrapper for the BioX-Workflow-Command and HPC-Runner-Command libraries.
 
 # SYNOPSIS
 
-    use BioSAILs::Command;
+BioSAILs stands for Bioinformatic Standardized Analysis Information Layers, and it incorporates the following completely decoupled systems,
+
+    1. BioX – Which is the analysis templating system.
+    2. HPC-Runner – The workflow submission system.
+    3. Bioinformatics software management system based on BioConda.
+
+Please check out the website [BioSAILs ](https://metacpan.org/pod/&#x20;https:#biosails.abudhabi.nyu.edu-biosails) for more information.
 
 # DESCRIPTION
 
-BioSAILs::Command is
+BioSAILs has been developed by a small Core Bioinformatics team that is focused on managing and analyzing substantial amounts of high throughput sequencing data.
+
+For our in house workflows please see [Workflows ](https://metacpan.org/pod/&#x20;https:#biosails.abudhabi.nyu.edu-biosails-index.php-templates)
+
+Edit any workflow using our in house workflow editor by clicking 'View/Edit'.
+
+## Get Help
+
+For additional help please see the [Forums ](https://metacpan.org/pod/&#x20;https:#biosails.abudhabi.nyu.edu-biosails-index.php-forums)
+
+For issues please run
+
+    biosails version
+
+And attach the output to any issues or concerns on https://github.com/biosails/BioSAILs-Command/issues.
 
 # AUTHOR
 

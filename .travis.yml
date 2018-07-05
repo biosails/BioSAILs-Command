@@ -1,0 +1,44 @@
+matrix:
+  include:
+    - os:       linux
+      language: perl
+      perl:     "5.22"
+      install:
+         - which cpanm
+         - cpanm -n --installdeps .
+         - cpanm -v Module::Build::Tiny
+         - cpanm -n IO::Interactive
+         - cpanm -nq BioX::Workflow::Command HPC::Runner::Command
+         - cpanm -nq Test::Class::Moose
+         - perl Build.PL
+         - perl ./Build
+         - perl ./Build test
+         - perl ./Build install
+      script:
+        - biosails -h
+        - biosails version
+    - os:       osx
+      install:
+        - wget https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O miniconda.sh
+        - bash miniconda.sh -b -p $HOME/miniconda
+        - export PATH="$HOME/miniconda/bin:$PATH"
+        - hash -r
+        - conda config --set always_yes yes --set changeps1 no
+        - conda config --add channels conda-forge
+        - conda config --add channels bioconda
+        - conda update -q conda
+        - conda info -a
+        - conda create -q -n build perl perl-app-cpanminus
+        - source activate build
+        - cpanm -nq --installdeps .
+        - cpanm -v Module::Build::Tiny
+        - cpanm -nq IO::Interactive
+        - cpanm -nq BioX::Workflow::Command HPC::Runner::Command 
+        - cpanm -nq Test::Class::Moose
+        - perl Build.PL
+        - perl ./Build
+        - perl ./Build test
+        - perl ./Build install
+      script:
+        - biosails -h
+        - biosails version
