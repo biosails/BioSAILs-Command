@@ -1,8 +1,16 @@
 package BioSAILs::Command;
 
+use v5.10;
 use strict;
-use 5.008_005;
-our $VERSION = '0.01';
+our $VERSION = '1.0';
+
+
+use MooseX::App 1.39 qw(Color);
+
+app_strict 0;
+
+no Moose;
+__PACKAGE__->meta->make_immutable;
 
 1;
 __END__
@@ -11,15 +19,36 @@ __END__
 
 =head1 NAME
 
-BioSAILs::Command - Blah blah blah
+BioSAILs::Command - Command line wrapper for the BioX-Workflow-Command and HPC-Runner-Command libraries.
 
 =head1 SYNOPSIS
 
-  use BioSAILs::Command;
+BioSAILs stands for Bioinformatic Standardized Analysis Information Layers, and it incorporates the following completely decoupled systems,
+
+    1. BioX – Which is the analysis templating system.
+    2. HPC-Runner – The workflow submission system.
+    3. Bioinformatics software management system based on BioConda.
+
+Please check out the website L<BioSAILs | https://biosails.abudhabi.nyu.edu/biosails/> for more information.
 
 =head1 DESCRIPTION
 
-BioSAILs::Command is
+BioSAILs has been developed by a small Core Bioinformatics team that is focused on managing and analyzing substantial amounts of high throughput sequencing data.
+
+For our in house workflows please see L<Workflows | https://biosails.abudhabi.nyu.edu/biosails/index.php/templates/>
+
+Edit any workflow using our in house workflow editor by clicking 'View/Edit'.
+
+
+=head2 Get Help
+
+For additional help please see the L<Forums | https://biosails.abudhabi.nyu.edu/biosails/index.php/forums/>
+
+For issues please run
+
+    biosails version
+
+And attach the output to any issues or concerns on https://github.com/biosails/BioSAILs-Command/issues.
 
 =head1 AUTHOR
 
