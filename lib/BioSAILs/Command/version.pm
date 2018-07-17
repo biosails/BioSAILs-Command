@@ -11,6 +11,10 @@ use HPC::Runner::Command;
 use BioSAILs::Command;
 use MooseX::App::Plugin::Version::Command;
 
+command_short_description 'Get the versions of BioX::Workflow::Command, HPC::Runner::Command, BioSAILs, and perl';
+command_long_description 'Get the versions of BioX::Workflow::Command, HPC::Runner::Command, BioSAILs, and perl.' .
+    ' Please be sure to include this information in any tickets.';
+
 sub execute {
     my $self = shift;
 
@@ -18,18 +22,17 @@ sub execute {
     my $hpc = HPC::Runner::Command->new();
     my $biosails = BioSAILs::Command->new();
 
-    my $moosex = MooseX::App::Plugin::Version::Command->new();
+#    my $moosex = MooseX::App::Plugin::Version::Command->new();
 
     my $envelope;
-
-    $envelope =  $self->perl_version($biosails);
+    $envelope = $self->perl_version($biosails);
     $envelope->print;
 
-    $envelope =  $self->version($biosails, 'BioSAILs');
+    $envelope = $self->version($biosails, 'BioSAILs');
     $envelope->print;
-    $envelope =  $self->version($biox, 'BioX-Workflow-Command');
+    $envelope = $self->version($biox, 'BioX-Workflow-Command');
     $envelope->print;
-    $envelope =  $self->version($hpc, 'HPC-Runner-Command');
+    $envelope = $self->version($hpc, 'HPC-Runner-Command');
     $envelope->print;
 }
 
@@ -38,7 +41,7 @@ sub perl_version {
     my $app = shift;
 
     my $message_class = $app->meta->app_messageclass;
-    my $version =  sprintf("%vd", $^V);
+    my $version = sprintf("%vd", $^V);
 
     my @parts = ($message_class->new({
         header => 'Perl Version',
@@ -56,7 +59,7 @@ sub version {
     my $message_class = $app->meta->app_messageclass;
 
     my @parts = ($message_class->new({
-        header => $name. ' Version',
+        header => $name . ' Version',
         body   => MooseX::App::Utils::format_text($version)
     }));
 
