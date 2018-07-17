@@ -10,19 +10,19 @@ BioSAILs stands for Bioinformatic Standardized Analysis Information Layers, and 
     2. HPC-Runner – The workflow submission system.
     3. Bioinformatics software management system based on BioConda.
 
-Please check out the website [BioSAILs ](https://metacpan.org/pod/&#x20;https:#biosails.abudhabi.nyu.edu-biosails) for more information.
+Please check out the website BioSAILs :  https://biosails.abudhabi.nyu.edu/biosails
 
 # DESCRIPTION
 
 BioSAILs has been developed by a small Core Bioinformatics team that is focused on managing and analyzing substantial amounts of high throughput sequencing data.
 
-For our in house workflows please see [Workflows ](https://metacpan.org/pod/&#x20;https:#biosails.abudhabi.nyu.edu-biosails-index.php-templates)
+For our in house workflows please see the Workflows menu at : https://biosails.abudhabi.nyu.edu/biosails/
 
 Edit any workflow using our in house workflow editor by clicking 'View/Edit'.
 
 ## Get Help
 
-For additional help please see the [Forums ](https://metacpan.org/pod/&#x20;https:#biosails.abudhabi.nyu.edu-biosails-index.php-forums)
+For additional help please see visit the Forums https://biosails.abudhabi.nyu.edu/biosails/index.php/forums
 
 For issues please run
 
